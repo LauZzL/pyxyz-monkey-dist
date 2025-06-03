@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name       皮友小宇宙网盘下载
+// @name       pyxyz-monkey
 // @namespace  皮友小宇宙
-// @version    1.0.0
-// @author     LauZzL
+// @version    1.0.1
+// @author     monkey
 // @icon       https://vitejs.dev/logo.svg
 // @match      https://www.baidu.com/monkey*
 // @match      *://*/*
@@ -34,18 +34,19 @@
           referer = atob(referer);
           location.href = `${referer}/${getRandomStr(8)}?down=${down}&name=${name}&referer=${btoa(referer)}`;
         }
-      }
-      if (domain.includes("referer") && domain.includes("down")) {
-        const u = new URL(domain);
-        let referer = u.searchParams.get("referer");
-        let down = u.searchParams.get("down");
-        let name = u.searchParams.get("name");
-        if (referer && down && name) {
-          referer = atob(referer);
-          down = atob(down);
-          name = atob(name);
-          alert(`开始下载：${name}`);
-          window.open(down);
+      } else {
+        if (domain.includes("referer") && domain.includes("down")) {
+          const u = new URL(domain);
+          let referer = u.searchParams.get("referer");
+          let down = u.searchParams.get("down");
+          let name = u.searchParams.get("name");
+          if (referer && down && name) {
+            referer = atob(referer);
+            down = atob(down);
+            name = atob(name);
+            alert(`开始下载：${name}`);
+            window.open(down);
+          }
         }
       }
       return (_ctx, _cache) => {
