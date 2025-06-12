@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       pyxyz-monkey
 // @namespace  皮友小宇宙
-// @version    1.0.2
+// @version    1.0.3
 // @author     monkey
 // @icon       https://vitejs.dev/logo.svg
 // @match      https://www.baidu.com/monkey*
@@ -168,14 +168,6 @@
   const _sfc_main = {
     __name: "App",
     setup(__props) {
-      const getRandomStr = (length) => {
-        const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-        let str = "";
-        for (let i = 0; i < length; i++) {
-          str += chars.charAt(Math.floor(Math.random() * chars.length));
-        }
-        return str;
-      };
       const domain = location.href;
       const isRedirectPage = domain.includes("www.baidu.com/monkey");
       if (isRedirectPage) {
@@ -185,7 +177,11 @@
         let name = u.searchParams.get("name");
         if (referer && down && name) {
           referer = gBase64.decode(referer);
-          location.href = `${referer}/${getRandomStr(8)}?down=${down}&name=${name}&referer=${btoa(referer)}`;
+          const newUrl = new URL(referer);
+          newUrl.searchParams.set("referer", btoa(referer));
+          newUrl.searchParams.set("down", down);
+          newUrl.searchParams.set("name", name);
+          location.href = newUrl.href;
         }
       } else {
         if (domain.includes("referer") && domain.includes("down")) {
