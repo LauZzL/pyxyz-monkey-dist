@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name       pyxyz-monkey
 // @namespace  皮友小宇宙
-// @version    1.0.3
+// @version    1.0.4
 // @author     monkey
 // @icon       https://vitejs.dev/logo.svg
 // @match      https://www.baidu.com/monkey*
 // @match      *://*/*
-// @require    https://cdn.jsdelivr.net/npm/vue@3.5.16/dist/vue.global.prod.js
+// @require    https://cdn.bootcdn.net/ajax/libs/vue/3.5.13/vue.global.prod.js
 // ==/UserScript==
 
 (function (vue) {
@@ -177,11 +177,16 @@
         let name = u.searchParams.get("name");
         if (referer && down && name) {
           referer = gBase64.decode(referer);
-          const newUrl = new URL(referer);
-          newUrl.searchParams.set("referer", btoa(referer));
-          newUrl.searchParams.set("down", down);
-          newUrl.searchParams.set("name", name);
-          location.href = newUrl.href;
+          if (referer.match(/koolaayun/)) {
+            alert(`开始下载：${gBase64.decode(name)}`);
+            window.open(gBase64.decode(down));
+          } else {
+            const newUrl = new URL(referer);
+            newUrl.searchParams.set("referer", btoa(referer));
+            newUrl.searchParams.set("down", down);
+            newUrl.searchParams.set("name", name);
+            location.href = newUrl.href;
+          }
         }
       } else {
         if (domain.includes("referer") && domain.includes("down")) {
