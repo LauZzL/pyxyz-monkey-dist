@@ -10,7 +10,7 @@
 // @grant      GM_addStyle
 // ==/UserScript==
 
-(t=>{if(typeof GM_addStyle=="function"){GM_addStyle(t);return}const e=document.createElement("style");e.textContent=t,document.head.append(e)})(' .pyxyz-container[data-v-9bc6db20]{display:flex;justify-content:center;align-items:center;height:100vh;width:100vw;overflow:hidden}.pyxyz-card-container[data-v-9bc6db20]{width:433px;height:333px}@media (max-width: 767px){.pyxyz-card-container[data-v-9bc6db20]{width:100%;height:777px;font-size:33px}}.file-container[data-v-9bc6db20]{display:flex;justify-content:center;align-items:center}.file-info[data-v-9bc6db20]{display:flex;flex-direction:column;align-items:flex-start}html,body{width:100%;height:100%}input::-ms-clear,input::-ms-reveal{display:none}*,*:before,*:after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0,0,0,0)}@-ms-viewport{width:device-width}body{margin:0}[tabindex="-1"]:focus{outline:none}hr{box-sizing:content-box;height:0;overflow:visible}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5em;font-weight:500}p{margin-top:0;margin-bottom:1em}abbr[title],abbr[data-original-title]{-webkit-text-decoration:underline dotted;text-decoration:underline;text-decoration:underline dotted;border-bottom:0;cursor:help}address{margin-bottom:1em;font-style:normal;line-height:inherit}input[type=text],input[type=password],input[type=number],textarea{-webkit-appearance:none}ol,ul,dl{margin-top:0;margin-bottom:1em}ol ol,ul ul,ol ul,ul ol{margin-bottom:0}dt{font-weight:500}dd{margin-bottom:.5em;margin-left:0}blockquote{margin:0 0 1em}dfn{font-style:italic}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}pre,code,kbd,samp{font-size:1em;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace}pre{margin-top:0;margin-bottom:1em;overflow:auto}figure{margin:0 0 1em}img{vertical-align:middle;border-style:none}a,area,button,[role=button],input:not([type=range]),label,select,summary,textarea{touch-action:manipulation}table{border-collapse:collapse}caption{padding-top:.75em;padding-bottom:.3em;text-align:left;caption-side:bottom}input,button,select,optgroup,textarea{margin:0;color:inherit;font-size:inherit;font-family:inherit;line-height:inherit}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{padding:0;border-style:none}input[type=radio],input[type=checkbox]{box-sizing:border-box;padding:0}input[type=date],input[type=time],input[type=datetime-local],input[type=month]{-webkit-appearance:listbox}textarea{overflow:auto;resize:vertical}fieldset{min-width:0;margin:0;padding:0;border:0}legend{display:block;width:100%;max-width:100%;margin-bottom:.5em;padding:0;color:inherit;font-size:1.5em;line-height:inherit;white-space:normal}progress{vertical-align:baseline}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{outline-offset:-2px;-webkit-appearance:none}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}output{display:inline-block}summary{display:list-item}template{display:none}[hidden]{display:none!important}mark{padding:.2em;background-color:#feffe6} ');
+(t=>{if(typeof GM_addStyle=="function"){GM_addStyle(t);return}const e=document.createElement("style");e.textContent=t,document.head.append(e)})(' .pyxyz-container[data-v-63531431]{display:flex;justify-content:center;align-items:center;height:100vh;width:100vw;overflow:hidden}.pyxyz-card-container[data-v-63531431]{width:433px;height:333px}@media (max-width: 767px){.pyxyz-card-container[data-v-63531431]{width:100%;height:777px;font-size:33px}}.file-container[data-v-63531431]{display:flex;justify-content:center;align-items:center}.file-info[data-v-63531431]{display:flex;flex-direction:column;align-items:flex-start}html,body{width:100%;height:100%}input::-ms-clear,input::-ms-reveal{display:none}*,*:before,*:after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0,0,0,0)}@-ms-viewport{width:device-width}body{margin:0}[tabindex="-1"]:focus{outline:none}hr{box-sizing:content-box;height:0;overflow:visible}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5em;font-weight:500}p{margin-top:0;margin-bottom:1em}abbr[title],abbr[data-original-title]{-webkit-text-decoration:underline dotted;text-decoration:underline;text-decoration:underline dotted;border-bottom:0;cursor:help}address{margin-bottom:1em;font-style:normal;line-height:inherit}input[type=text],input[type=password],input[type=number],textarea{-webkit-appearance:none}ol,ul,dl{margin-top:0;margin-bottom:1em}ol ol,ul ul,ol ul,ul ol{margin-bottom:0}dt{font-weight:500}dd{margin-bottom:.5em;margin-left:0}blockquote{margin:0 0 1em}dfn{font-style:italic}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}pre,code,kbd,samp{font-size:1em;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace}pre{margin-top:0;margin-bottom:1em;overflow:auto}figure{margin:0 0 1em}img{vertical-align:middle;border-style:none}a,area,button,[role=button],input:not([type=range]),label,select,summary,textarea{touch-action:manipulation}table{border-collapse:collapse}caption{padding-top:.75em;padding-bottom:.3em;text-align:left;caption-side:bottom}input,button,select,optgroup,textarea{margin:0;color:inherit;font-size:inherit;font-family:inherit;line-height:inherit}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{padding:0;border-style:none}input[type=radio],input[type=checkbox]{box-sizing:border-box;padding:0}input[type=date],input[type=time],input[type=datetime-local],input[type=month]{-webkit-appearance:listbox}textarea{overflow:auto;resize:vertical}fieldset{min-width:0;margin:0;padding:0;border:0}legend{display:block;width:100%;max-width:100%;margin-bottom:.5em;padding:0;color:inherit;font-size:1.5em;line-height:inherit;white-space:normal}progress{vertical-align:baseline}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{outline-offset:-2px;-webkit-appearance:none}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}output{display:inline-block}summary{display:list-item}template{display:none}[hidden]{display:none!important}mark{padding:.2em;background-color:#feffe6} ');
 
 (function (vue) {
   'use strict';
@@ -20,7 +20,7 @@
     return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
   };
   var require_main_001 = __commonJS({
-    "main-CMc7eidm.js"(exports, module) {
+    "main-DFlWkGL3.js"(exports, module) {
       function bind(fn, thisArg) {
         return function wrap() {
           return fn.apply(thisArg, arguments);
@@ -256,20 +256,20 @@
       const reduceDescriptors = (obj, reducer) => {
         const descriptors2 = Object.getOwnPropertyDescriptors(obj);
         const reducedDescriptors = {};
-        forEach(descriptors2, (descriptor, name) => {
+        forEach(descriptors2, (descriptor, name2) => {
           let ret;
-          if ((ret = reducer(descriptor, name, obj)) !== false) {
-            reducedDescriptors[name] = ret || descriptor;
+          if ((ret = reducer(descriptor, name2, obj)) !== false) {
+            reducedDescriptors[name2] = ret || descriptor;
           }
         });
         Object.defineProperties(obj, reducedDescriptors);
       };
       const freezeMethods = (obj) => {
-        reduceDescriptors(obj, (descriptor, name) => {
-          if (isFunction$2(obj) && ["arguments", "caller", "callee"].indexOf(name) !== -1) {
+        reduceDescriptors(obj, (descriptor, name2) => {
+          if (isFunction$2(obj) && ["arguments", "caller", "callee"].indexOf(name2) !== -1) {
             return false;
           }
-          const value = obj[name];
+          const value = obj[name2];
           if (!isFunction$2(value)) return;
           descriptor.enumerable = false;
           if ("writable" in descriptor) {
@@ -278,7 +278,7 @@
           }
           if (!descriptor.set) {
             descriptor.set = () => {
-              throw Error("Can not rewrite read-only method '" + name + "'");
+              throw Error("Can not rewrite read-only method '" + name2 + "'");
             };
           }
         });
@@ -613,8 +613,8 @@
         params && toFormData$1(params, this, options);
       }
       const prototype = AxiosURLSearchParams.prototype;
-      prototype.append = function append2(name, value) {
-        this._pairs.push([name, value]);
+      prototype.append = function append2(name2, value) {
+        this._pairs.push([name2, value]);
       };
       prototype.toString = function toString2(encoder) {
         const _encode2 = encoder ? function(value) {
@@ -763,8 +763,8 @@
           ...options
         });
       }
-      function parsePropPath(name) {
-        return utils$2.matchAll(/\w+|\[(\w*)]/g, name).map((match2) => {
+      function parsePropPath(name2) {
+        return utils$2.matchAll(/\w+|\[(\w*)]/g, name2).map((match2) => {
           return match2[0] === "[]" ? "" : match2[1] || match2[0];
         });
       }
@@ -782,32 +782,32 @@
       }
       function formDataToJSON(formData) {
         function buildPath(path2, value, target, index2) {
-          let name = path2[index2++];
-          if (name === "__proto__") return true;
-          const isNumericKey = Number.isFinite(+name);
+          let name2 = path2[index2++];
+          if (name2 === "__proto__") return true;
+          const isNumericKey = Number.isFinite(+name2);
           const isLast = index2 >= path2.length;
-          name = !name && utils$2.isArray(target) ? target.length : name;
+          name2 = !name2 && utils$2.isArray(target) ? target.length : name2;
           if (isLast) {
-            if (utils$2.hasOwnProp(target, name)) {
-              target[name] = [target[name], value];
+            if (utils$2.hasOwnProp(target, name2)) {
+              target[name2] = [target[name2], value];
             } else {
-              target[name] = value;
+              target[name2] = value;
             }
             return !isNumericKey;
           }
-          if (!target[name] || !utils$2.isObject(target[name])) {
-            target[name] = [];
+          if (!target[name2] || !utils$2.isObject(target[name2])) {
+            target[name2] = [];
           }
-          const result = buildPath(path2, value, target[name], index2);
-          if (result && utils$2.isArray(target[name])) {
-            target[name] = arrayToObject(target[name]);
+          const result = buildPath(path2, value, target[name2], index2);
+          if (result && utils$2.isArray(target[name2])) {
+            target[name2] = arrayToObject(target[name2]);
           }
           return !isNumericKey;
         }
         if (utils$2.isFormData(formData) && utils$2.isFunction(formData.entries)) {
           const obj = {};
-          utils$2.forEachEntry(formData, (name, value) => {
-            buildPath(parsePropPath(name), value, obj, 0);
+          utils$2.forEachEntry(formData, (name2, value) => {
+            buildPath(parsePropPath(name2), value, obj, 0);
           });
           return obj;
         }
@@ -1335,20 +1335,20 @@
       const cookies = platform.hasStandardBrowserEnv ? (
         // Standard browser envs support document.cookie
         {
-          write(name, value, expires, path2, domain, secure) {
-            const cookie = [name + "=" + encodeURIComponent(value)];
+          write(name2, value, expires, path2, domain, secure) {
+            const cookie = [name2 + "=" + encodeURIComponent(value)];
             utils$2.isNumber(expires) && cookie.push("expires=" + new Date(expires).toGMTString());
             utils$2.isString(path2) && cookie.push("path=" + path2);
             utils$2.isString(domain) && cookie.push("domain=" + domain);
             secure === true && cookie.push("secure");
             document.cookie = cookie.join("; ");
           },
-          read(name) {
-            const match2 = document.cookie.match(new RegExp("(^|;\\s*)(" + name + ")=([^;]*)"));
+          read(name2) {
+            const match2 = document.cookie.match(new RegExp("(^|;\\s*)(" + name2 + ")=([^;]*)"));
             return match2 ? decodeURIComponent(match2[3]) : null;
           },
-          remove(name) {
-            this.write(name, "", Date.now() - 864e5);
+          remove(name2) {
+            this.write(name2, "", Date.now() - 864e5);
           }
         }
       ) : (
@@ -2621,7 +2621,7 @@
         };
       };
       const extendString = function() {
-        const _add = (name, body) => Object.defineProperty(String.prototype, name, _noEnum(body));
+        const _add = (name2, body) => Object.defineProperty(String.prototype, name2, _noEnum(body));
         _add("fromBase64", function() {
           return decode(this);
         });
@@ -2639,7 +2639,7 @@
         });
       };
       const extendUint8Array = function() {
-        const _add = (name, body) => Object.defineProperty(Uint8Array.prototype, name, _noEnum(body));
+        const _add = (name2, body) => Object.defineProperty(Uint8Array.prototype, name2, _noEnum(body));
         _add("toBase64", function(urlsafe) {
           return fromUint8Array(this, urlsafe);
         });
@@ -2829,9 +2829,9 @@
               }
             }
           } else if (isObject$2(value)) {
-            for (const name in value) {
-              if (value[name]) {
-                classes.push(name);
+            for (const name2 in value) {
+              if (value[name2]) {
+                classes.push(name2);
               }
             }
           }
@@ -3423,18 +3423,18 @@
         return res;
       };
       const getSlot = function(self2) {
-        let name = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "default";
+        let name2 = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : "default";
         let options = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
         if (vue.isVNode(self2)) {
           if (self2.type === vue.Fragment) {
-            return name === "default" ? flattenChildren(self2.children) : [];
-          } else if (self2.children && self2.children[name]) {
-            return flattenChildren(self2.children[name](options));
+            return name2 === "default" ? flattenChildren(self2.children) : [];
+          } else if (self2.children && self2.children[name2]) {
+            return flattenChildren(self2.children[name2](options));
           } else {
             return [];
           }
         } else {
-          const res = self2.$slots[name] && self2.$slots[name](options);
+          const res = self2.$slots[name2] && self2.$slots[name2](options);
           return flattenChildren(res);
         }
       };
@@ -5522,9 +5522,9 @@
         };
       }
       class Keyframe {
-        constructor(name, style) {
+        constructor(name2, style) {
           this._keyframe = true;
-          this.name = name;
+          this.name = name2;
           this.style = style;
         }
         getName() {
@@ -7746,15 +7746,15 @@
         vue.provide(SizeContextKey, vue.computed(() => size.value || parentSize.value));
         return size;
       };
-      const useConfigInject = (name, props2) => {
+      const useConfigInject = (name2, props2) => {
         const sizeContext = useInjectSize();
         const disabledContext = useInjectDisabled();
         const configProvider = vue.inject(configProviderKey, _extends$1(_extends$1({}, defaultConfigProvider), {
-          renderEmpty: (name2) => vue.h(DefaultRenderEmpty, {
-            componentName: name2
+          renderEmpty: (name3) => vue.h(DefaultRenderEmpty, {
+            componentName: name3
           })
         }));
-        const prefixCls = vue.computed(() => configProvider.getPrefixCls(name, props2.prefixCls));
+        const prefixCls = vue.computed(() => configProvider.getPrefixCls(name2, props2.prefixCls));
         const direction = vue.computed(() => {
           var _a2, _b;
           return (_a2 = props2.direction) !== null && _a2 !== void 0 ? _a2 : (_b = configProvider.direction) === null || _b === void 0 ? void 0 : _b.value;
@@ -9649,19 +9649,19 @@
         return getVendorPrefix() ? "".concat(getVendorPrefix(), "Transform") : "transform";
       }
       function setTransitionProperty(node2, value) {
-        var name = getTransitionName$2();
-        if (name) {
-          node2.style[name] = value;
-          if (name !== "transitionProperty") {
+        var name2 = getTransitionName$2();
+        if (name2) {
+          node2.style[name2] = value;
+          if (name2 !== "transitionProperty") {
             node2.style.transitionProperty = value;
           }
         }
       }
       function setTransform(node2, value) {
-        var name = getTransformName();
-        if (name) {
-          node2.style[name] = value;
-          if (name !== "transform") {
+        var name2 = getTransformName();
+        if (name2) {
+          node2.style[name2] = value;
+          if (name2 !== "transform") {
             node2.style.transform = value;
           }
         }
@@ -9721,12 +9721,12 @@
         elem.offsetHeight;
         elem.style.display = originalStyle;
       }
-      function css(el, name, v2) {
+      function css(el, name2, v2) {
         var value = v2;
-        if (_typeof(name) === "object") {
-          for (var i2 in name) {
-            if (name.hasOwnProperty(i2)) {
-              css(el, i2, name[i2]);
+        if (_typeof(name2) === "object") {
+          for (var i2 in name2) {
+            if (name2.hasOwnProperty(i2)) {
+              css(el, i2, name2[i2]);
             }
           }
           return void 0;
@@ -9735,10 +9735,10 @@
           if (typeof value === "number") {
             value = "".concat(value, "px");
           }
-          el.style[name] = value;
+          el.style[name2] = value;
           return void 0;
         }
-        return getComputedStyleX(el, name);
+        return getComputedStyleX(el, name2);
       }
       function getClientPosition$1(elem) {
         var box2;
@@ -9795,13 +9795,13 @@
         }
         return node2.ownerDocument;
       }
-      function _getComputedStyle(elem, name, cs) {
+      function _getComputedStyle(elem, name2, cs) {
         var computedStyle = cs;
         var val = "";
         var d2 = getDocument(elem);
         computedStyle = computedStyle || d2.defaultView.getComputedStyle(elem, null);
         if (computedStyle) {
-          val = computedStyle.getPropertyValue(name) || computedStyle[name];
+          val = computedStyle.getPropertyValue(name2) || computedStyle[name2];
         }
         return val;
       }
@@ -9811,14 +9811,14 @@
       var RUNTIME_STYLE = "runtimeStyle";
       var LEFT = "left";
       var PX = "px";
-      function _getComputedStyleIE(elem, name) {
-        var ret = elem[CURRENT_STYLE] && elem[CURRENT_STYLE][name];
-        if (_RE_NUM_NO_PX.test(ret) && !RE_POS.test(name)) {
+      function _getComputedStyleIE(elem, name2) {
+        var ret = elem[CURRENT_STYLE] && elem[CURRENT_STYLE][name2];
+        if (_RE_NUM_NO_PX.test(ret) && !RE_POS.test(name2)) {
           var style = elem.style;
           var left = style[LEFT];
           var rsLeft = elem[RUNTIME_STYLE][LEFT];
           elem[RUNTIME_STYLE][LEFT] = elem[CURRENT_STYLE][LEFT];
-          style[LEFT] = name === "fontSize" ? "1em" : ret || 0;
+          style[LEFT] = name2 === "fontSize" ? "1em" : ret || 0;
           ret = style.pixelLeft + PX;
           style[LEFT] = left;
           elem[RUNTIME_STYLE][LEFT] = rsLeft;
@@ -9959,17 +9959,17 @@
       function swap(elem, options, callback) {
         var old = {};
         var style = elem.style;
-        var name;
-        for (name in options) {
-          if (options.hasOwnProperty(name)) {
-            old[name] = style[name];
-            style[name] = options[name];
+        var name2;
+        for (name2 in options) {
+          if (options.hasOwnProperty(name2)) {
+            old[name2] = style[name2];
+            style[name2] = options[name2];
           }
         }
         callback.call(elem);
-        for (name in options) {
-          if (options.hasOwnProperty(name)) {
-            style[name] = old[name];
+        for (name2 in options) {
+          if (options.hasOwnProperty(name2)) {
+            style[name2] = old[name2];
           }
         }
       }
@@ -10007,20 +10007,20 @@
           return parent2;
         }
       };
-      each(["Width", "Height"], function(name) {
-        domUtils["doc".concat(name)] = function(refWin) {
+      each(["Width", "Height"], function(name2) {
+        domUtils["doc".concat(name2)] = function(refWin) {
           var d2 = refWin.document;
           return Math.max(
             // firefox chrome documentElement.scrollHeight< body.scrollHeight
             // ie standard mode : documentElement.scrollHeight> body.scrollHeight
-            d2.documentElement["scroll".concat(name)],
+            d2.documentElement["scroll".concat(name2)],
             // quirks : documentElement.scrollHeight 最大等于可视窗口多一点？
-            d2.body["scroll".concat(name)],
-            domUtils["viewport".concat(name)](d2)
+            d2.body["scroll".concat(name2)],
+            domUtils["viewport".concat(name2)](d2)
           );
         };
-        domUtils["viewport".concat(name)] = function(win) {
-          var prop = "client".concat(name);
+        domUtils["viewport".concat(name2)] = function(win) {
+          var prop = "client".concat(name2);
           var doc = win.document;
           var body = doc.body;
           var documentElement = doc.documentElement;
@@ -10028,22 +10028,22 @@
           return doc.compatMode === "CSS1Compat" && documentElementProp || body && body[prop] || documentElementProp;
         };
       });
-      function getWH(elem, name, ex) {
+      function getWH(elem, name2, ex) {
         var extra = ex;
         if (isWindow(elem)) {
-          return name === "width" ? domUtils.viewportWidth(elem) : domUtils.viewportHeight(elem);
+          return name2 === "width" ? domUtils.viewportWidth(elem) : domUtils.viewportHeight(elem);
         } else if (elem.nodeType === 9) {
-          return name === "width" ? domUtils.docWidth(elem) : domUtils.docHeight(elem);
+          return name2 === "width" ? domUtils.docWidth(elem) : domUtils.docHeight(elem);
         }
-        var which = name === "width" ? ["Left", "Right"] : ["Top", "Bottom"];
-        var borderBoxValue = name === "width" ? Math.floor(elem.getBoundingClientRect().width) : Math.floor(elem.getBoundingClientRect().height);
+        var which = name2 === "width" ? ["Left", "Right"] : ["Top", "Bottom"];
+        var borderBoxValue = name2 === "width" ? Math.floor(elem.getBoundingClientRect().width) : Math.floor(elem.getBoundingClientRect().height);
         var isBorderBox = isBorderBoxFn(elem);
         var cssBoxValue = 0;
         if (borderBoxValue === null || borderBoxValue === void 0 || borderBoxValue <= 0) {
           borderBoxValue = void 0;
-          cssBoxValue = getComputedStyleX(elem, name);
+          cssBoxValue = getComputedStyleX(elem, name2);
           if (cssBoxValue === null || cssBoxValue === void 0 || Number(cssBoxValue) < 0) {
-            cssBoxValue = elem.style[name] || 0;
+            cssBoxValue = elem.style[name2] || 0;
           }
           cssBoxValue = Math.floor(parseFloat(cssBoxValue)) || 0;
         }
@@ -10085,13 +10085,13 @@
         }
         return val;
       }
-      each(["width", "height"], function(name) {
-        var first = name.charAt(0).toUpperCase() + name.slice(1);
+      each(["width", "height"], function(name2) {
+        var first = name2.charAt(0).toUpperCase() + name2.slice(1);
         domUtils["outer".concat(first)] = function(el, includeMargin) {
-          return el && getWHIgnoreDisplay(el, name, includeMargin ? MARGIN_INDEX : BORDER_INDEX);
+          return el && getWHIgnoreDisplay(el, name2, includeMargin ? MARGIN_INDEX : BORDER_INDEX);
         };
-        var which = name === "width" ? ["Left", "Right"] : ["Top", "Bottom"];
-        domUtils[name] = function(elem, v2) {
+        var which = name2 === "width" ? ["Left", "Right"] : ["Top", "Bottom"];
+        domUtils[name2] = function(elem, v2) {
           var val = v2;
           if (val !== void 0) {
             if (elem) {
@@ -10099,11 +10099,11 @@
               if (isBorderBox) {
                 val += getPBMWidth(elem, ["padding", "border"], which);
               }
-              return css(elem, name, val);
+              return css(elem, name2, val);
             }
             return void 0;
           }
-          return elem && getWHIgnoreDisplay(elem, name, CONTENT_INDEX);
+          return elem && getWHIgnoreDisplay(elem, name2, CONTENT_INDEX);
         };
       });
       function mix(to, from2) {
@@ -10595,9 +10595,9 @@
           return true;
         }) ? slot : null;
       };
-      function customRenderSlot(slots, name, props2, fallback) {
+      function customRenderSlot(slots, name2, props2, fallback) {
         var _a2;
-        const slot = (_a2 = slots[name]) === null || _a2 === void 0 ? void 0 : _a2.call(slots, props2);
+        const slot = (_a2 = slots[name2]) === null || _a2 === void 0 ? void 0 : _a2.call(slots, props2);
         if (ensureValidVNode(slot)) {
           return slot;
         }
@@ -13340,15 +13340,15 @@ html body {
       }
       function styleToString(style) {
         const styleNames = Array.prototype.slice.apply(style);
-        return styleNames.map((name) => `${name}: ${style.getPropertyValue(name)};`).join("");
+        return styleNames.map((name2) => `${name2}: ${style.getPropertyValue(name2)};`).join("");
       }
       function styleObjectToString(style) {
-        return Object.keys(style).reduce((acc, name) => {
-          const styleValue = style[name];
+        return Object.keys(style).reduce((acc, name2) => {
+          const styleValue = style[name2];
           if (typeof styleValue === "undefined" || styleValue === null) {
             return acc;
           }
-          acc += `${name}: ${style[name]};`;
+          acc += `${name2}: ${style[name2]};`;
           return acc;
         }, "");
       }
@@ -27561,16 +27561,16 @@ summary tabindex target title type usemap value width wmode wrap`;
         }
       }
       const collapseMotion = function() {
-        let name = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "ant-motion-collapse";
+        let name2 = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "ant-motion-collapse";
         let appear = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : true;
         return {
-          name,
+          name: name2,
           appear,
           css: true,
           onBeforeEnter: (node2) => {
             node2.style.height = "0px";
             node2.style.opacity = "0";
-            addClass(node2, name);
+            addClass(node2, name2);
           },
           onEnter: (node2) => {
             vue.nextTick(() => {
@@ -27580,13 +27580,13 @@ summary tabindex target title type usemap value width wmode wrap`;
           },
           onAfterEnter: (node2) => {
             if (node2) {
-              removeClass(node2, name);
+              removeClass(node2, name2);
               node2.style.height = null;
               node2.style.opacity = null;
             }
           },
           onBeforeLeave: (node2) => {
-            addClass(node2, name);
+            addClass(node2, name2);
             node2.style.height = `${node2.offsetHeight}px`;
             node2.style.opacity = null;
           },
@@ -27598,7 +27598,7 @@ summary tabindex target title type usemap value width wmode wrap`;
           },
           onAfterLeave: (node2) => {
             if (node2) {
-              removeClass(node2, name);
+              removeClass(node2, name2);
               if (node2.style) {
                 node2.style.height = null;
                 node2.style.opacity = null;
@@ -29189,8 +29189,8 @@ summary tabindex target title type usemap value width wmode wrap`;
           return null;
         }
         const paramsKeys = Object.keys(params).join("|");
-        const name = route.breadcrumbName.replace(new RegExp(`:(${paramsKeys})`, "g"), (replacement, key2) => params[key2] || replacement);
-        return name;
+        const name2 = route.breadcrumbName.replace(new RegExp(`:(${paramsKeys})`, "g"), (replacement, key2) => params[key2] || replacement);
+        return name2;
       }
       function defaultItemRender$1(opt) {
         const {
@@ -29200,10 +29200,10 @@ summary tabindex target title type usemap value width wmode wrap`;
           paths
         } = opt;
         const isLastItem = routes.indexOf(route) === routes.length - 1;
-        const name = getBreadcrumbName(route, params);
-        return isLastItem ? vue.createVNode("span", null, [name]) : vue.createVNode("a", {
+        const name2 = getBreadcrumbName(route, params);
+        return isLastItem ? vue.createVNode("span", null, [name2]) : vue.createVNode("a", {
           "href": `#/${paths.join("/")}`
-        }, [name]);
+        }, [name2]);
       }
       const Breadcrumb = vue.defineComponent({
         compatConfig: {
@@ -34549,7 +34549,7 @@ summary tabindex target title type usemap value width wmode wrap`;
           return () => {
             const {
               prefixCls,
-              name,
+              name: name2,
               id,
               type,
               disabled,
@@ -34579,7 +34579,7 @@ summary tabindex target title type usemap value width wmode wrap`;
               [`${prefixCls}-disabled`]: disabled
             });
             const inputProps2 = _extends$1(_extends$1({
-              name,
+              name: name2,
               id,
               type,
               readonly,
@@ -41534,9 +41534,9 @@ summary tabindex target title type usemap value width wmode wrap`;
                   tab: temp,
                   slots: itemSlots
                 } = item;
-                const name = itemSlots === null || itemSlots === void 0 ? void 0 : itemSlots.tab;
+                const name2 = itemSlots === null || itemSlots === void 0 ? void 0 : itemSlots.tab;
                 devWarning(!itemSlots, "Card", `tabList slots is deprecated, Please use \`customTab\` instead.`);
-                let tab = temp !== void 0 ? temp : slots[name] ? slots[name](item) : null;
+                let tab = temp !== void 0 ? temp : slots[name2] ? slots[name2](item) : null;
                 tab = customRenderSlot(slots, "customTab", item, () => [tab]);
                 return vue.createVNode(TabPane, {
                   "tab": tab,
@@ -47536,7 +47536,7 @@ summary tabindex target title type usemap value width wmode wrap`;
           const {
             documentElement
           } = window.document;
-          return styleNameList.some((name) => name in documentElement.style);
+          return styleNameList.some((name2) => name2 in documentElement.style);
         }
         return false;
       };
@@ -48659,9 +48659,9 @@ summary tabindex target title type usemap value width wmode wrap`;
             throw new Error("Rules must be an object");
           }
           this.rules = {};
-          Object.keys(rules2).forEach(function(name) {
-            var item = rules2[name];
-            _this.rules[name] = Array.isArray(item) ? item : [item];
+          Object.keys(rules2).forEach(function(name2) {
+            var item = rules2[name2];
+            _this.rules[name2] = Array.isArray(item) ? item : [item];
           });
         };
         _proto.messages = function messages2(_messages) {
@@ -49075,7 +49075,7 @@ summary tabindex target title type usemap value width wmode wrap`;
           return kv[key2];
         });
       }
-      function validateRule(name, value, rule, options, messageVariables) {
+      function validateRule(name2, value, rule, options, messageVariables) {
         return __awaiter$2(this, void 0, void 0, function* () {
           const cloneRule = _extends$1({}, rule);
           delete cloneRule.ruleIndex;
@@ -49086,14 +49086,14 @@ summary tabindex target title type usemap value width wmode wrap`;
             delete cloneRule.defaultField;
           }
           const validator2 = new AsyncValidator({
-            [name]: [cloneRule]
+            [name2]: [cloneRule]
           });
           const messages2 = setValues({}, defaultValidateMessages, options.validateMessages);
           validator2.messages(messages2);
           let result = [];
           try {
             yield Promise.resolve(validator2.validate({
-              [name]: value
+              [name2]: value
             }, _extends$1({}, options)));
           } catch (errObj) {
             if (errObj.errors) {
@@ -49114,11 +49114,11 @@ summary tabindex target title type usemap value width wmode wrap`;
             }
           }
           if (!result.length && subRuleField) {
-            const subResults = yield Promise.all(value.map((subValue, i2) => validateRule(`${name}.${i2}`, subValue, subRuleField, options, messageVariables)));
+            const subResults = yield Promise.all(value.map((subValue, i2) => validateRule(`${name2}.${i2}`, subValue, subRuleField, options, messageVariables)));
             return subResults.reduce((prev2, errors) => [...prev2, ...errors], []);
           }
           const kv = _extends$1(_extends$1(_extends$1({}, rule), {
-            name,
+            name: name2,
             enum: (rule.enum || []).join(", ")
           }), messageVariables);
           const fillVariableResult = result.map((error) => {
@@ -49131,7 +49131,7 @@ summary tabindex target title type usemap value width wmode wrap`;
         });
       }
       function validateRules(namePath, value, rules2, options, validateFirst, messageVariables) {
-        const name = namePath.join(".");
+        const name2 = namePath.join(".");
         const filledRules = rules2.map((currentRule, ruleIndex) => {
           const originValidatorFunc = currentRule.validator;
           const cloneRule = _extends$1(_extends$1({}, currentRule), {
@@ -49184,7 +49184,7 @@ summary tabindex target title type usemap value width wmode wrap`;
           summaryPromise = new Promise((resolve, reject) => __awaiter$2(this, void 0, void 0, function* () {
             for (let i2 = 0; i2 < filledRules.length; i2 += 1) {
               const rule = filledRules[i2];
-              const errors = yield validateRule(name, value, rule, options, messageVariables);
+              const errors = yield validateRule(name2, value, rule, options, messageVariables);
               if (errors.length) {
                 reject([{
                   errors,
@@ -49196,7 +49196,7 @@ summary tabindex target title type usemap value width wmode wrap`;
             resolve([]);
           }));
         } else {
-          const rulePromises = filledRules.map((rule) => validateRule(name, value, rule, options, messageVariables).then((errors) => ({
+          const rulePromises = filledRules.map((rule) => validateRule(name2, value, rule, options, messageVariables).then((errors) => ({
             errors,
             rule
           })));
@@ -50627,14 +50627,14 @@ summary tabindex target title type usemap value width wmode wrap`;
           const promiseList = [];
           const values = {};
           for (let i2 = 0; i2 < names2.length; i2++) {
-            const name = names2[i2];
-            const prop = getPropByPath(vue.unref(modelRef), name, strict);
+            const name2 = names2[i2];
+            const prop = getPropByPath(vue.unref(modelRef), name2, strict);
             if (!prop.isValid) continue;
-            values[name] = prop.v;
-            const rules2 = filterRules(vue.unref(rulesRef)[name], toArray$4(option && option.trigger));
+            values[name2] = prop.v;
+            const rules2 = filterRules(vue.unref(rulesRef)[name2], toArray$4(option && option.trigger));
             if (rules2.length) {
-              promiseList.push(validateField(name, prop.v, rules2, option || {}).then(() => ({
-                name,
+              promiseList.push(validateField(name2, prop.v, rules2, option || {}).then(() => ({
+                name: name2,
                 errors: [],
                 warnings: []
               })).catch((ruleErrors) => {
@@ -50655,13 +50655,13 @@ summary tabindex target title type usemap value width wmode wrap`;
                 });
                 if (mergedErrors.length) {
                   return Promise.reject({
-                    name,
+                    name: name2,
                     errors: mergedErrors,
                     warnings: mergedWarnings
                   });
                 }
                 return {
-                  name,
+                  name: name2,
                   errors: mergedErrors,
                   warnings: mergedWarnings
                 };
@@ -50686,23 +50686,23 @@ summary tabindex target title type usemap value width wmode wrap`;
           returnPromise.catch((e2) => e2);
           return returnPromise;
         };
-        const validateField = function(name, value, rules2) {
+        const validateField = function(name2, value, rules2) {
           let option = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
-          const promise = validateRules([name], value, rules2, _extends$1({
+          const promise = validateRules([name2], value, rules2, _extends$1({
             validateMessages: defaultValidateMessages
           }, option), !!option.validateFirst);
-          if (!validateInfos[name]) {
+          if (!validateInfos[name2]) {
             return promise.catch((e2) => e2);
           }
-          validateInfos[name].validateStatus = "validating";
+          validateInfos[name2].validateStatus = "validating";
           promise.catch((e2) => e2).then(function() {
             let results = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : [];
             var _a2;
-            if (validateInfos[name].validateStatus === "validating") {
+            if (validateInfos[name2].validateStatus === "validating") {
               const res = results.filter((result) => result && result.errors.length);
-              validateInfos[name].validateStatus = res.length ? "error" : "success";
-              validateInfos[name].help = res.length ? res.map((r2) => r2.errors) : null;
-              (_a2 = options === null || options === void 0 ? void 0 : options.onValidate) === null || _a2 === void 0 ? void 0 : _a2.call(options, name, !res.length, res.length ? vue.toRaw(validateInfos[name].help[0]) : null);
+              validateInfos[name2].validateStatus = res.length ? "error" : "success";
+              validateInfos[name2].help = res.length ? res.map((r2) => r2.errors) : null;
+              (_a2 = options === null || options === void 0 ? void 0 : options.onValidate) === null || _a2 === void 0 ? void 0 : _a2.call(options, name2, !res.length, res.length ? vue.toRaw(validateInfos[name2].help[0]) : null);
             }
           });
           return promise;
@@ -50928,16 +50928,16 @@ summary tabindex target title type usemap value width wmode wrap`;
               return Object.values(fields).filter((field) => namePathList.findIndex((namePath) => isEqualName(namePath, field.fieldName.value)) > -1);
             }
           };
-          const resetFields = (name) => {
+          const resetFields = (name2) => {
             if (!props2.model) {
               return;
             }
-            getFieldsByNameList(name).forEach((field) => {
+            getFieldsByNameList(name2).forEach((field) => {
               field.resetField();
             });
           };
-          const clearValidate = (name) => {
-            getFieldsByNameList(name).forEach((field) => {
+          const clearValidate = (name2) => {
+            getFieldsByNameList(name2).forEach((field) => {
               field.clearValidate();
             });
           };
@@ -50957,9 +50957,9 @@ summary tabindex target title type usemap value width wmode wrap`;
           const validate = function() {
             return validateField(...arguments);
           };
-          const scrollToField = function(name) {
+          const scrollToField = function(name2) {
             let options = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
-            const fields2 = getFieldsByNameList(name ? [name] : void 0);
+            const fields2 = getFieldsByNameList(name2 ? [name2] : void 0);
             if (fields2.length) {
               const fieldId = fields2[0].fieldId.value;
               const node2 = fieldId ? document.getElementById(fieldId) : null;
@@ -51097,8 +51097,8 @@ summary tabindex target title type usemap value width wmode wrap`;
             rules: vue.computed(() => props2.rules),
             addField,
             removeField,
-            onValidate: (name, status, errors) => {
-              emit("validate", name, status, errors);
+            onValidate: (name2, status, errors) => {
+              emit("validate", name2, status, errors);
             },
             validateMessages
           });
@@ -52457,11 +52457,11 @@ summary tabindex target title type usemap value width wmode wrap`;
               prefixCls,
               animation = "fade"
             } = props2;
-            let name = props2.transitionName;
-            if (!name && animation) {
-              name = `${prefixCls}-${animation}`;
+            let name2 = props2.transitionName;
+            if (!name2 && animation) {
+              name2 = `${prefixCls}-${animation}`;
             }
-            return getTransitionGroupProps(name);
+            return getTransitionGroupProps(name2);
           });
           const add = (originNotice, holderCallback) => {
             const key2 = originNotice.key || getUuid$1();
@@ -52592,7 +52592,7 @@ summary tabindex target title type usemap value width wmode wrap`;
       });
       Notification$1.newInstance = function newNotificationInstance(properties, callback) {
         const _a2 = properties || {}, {
-          name = "notification",
+          name: name2 = "notification",
           getContainer: getContainer2,
           appContext,
           prefixCls: customizePrefixCls,
@@ -52618,7 +52618,7 @@ summary tabindex target title type usemap value width wmode wrap`;
               attrs
             } = _ref4;
             const notiRef = vue.shallowRef();
-            const prefixCls = vue.computed(() => globalConfigForApi.getPrefixCls(name, customizePrefixCls));
+            const prefixCls = vue.computed(() => globalConfigForApi.getPrefixCls(name2, customizePrefixCls));
             const [, hashId] = useStyle2(prefixCls);
             vue.onMounted(() => {
               callback({
@@ -52680,24 +52680,24 @@ summary tabindex target title type usemap value width wmode wrap`;
           const hookRefs = /* @__PURE__ */ new Map();
           const notices = vue.computed(() => props2.notices);
           const transitionProps = vue.computed(() => {
-            let name = props2.transitionName;
-            if (!name && props2.animation) {
+            let name2 = props2.transitionName;
+            if (!name2 && props2.animation) {
               switch (typeof props2.animation) {
                 case "string":
-                  name = props2.animation;
+                  name2 = props2.animation;
                   break;
                 case "function":
-                  name = props2.animation().name;
+                  name2 = props2.animation().name;
                   break;
                 case "object":
-                  name = props2.animation.name;
+                  name2 = props2.animation.name;
                   break;
                 default:
-                  name = `${props2.prefixCls}-fade`;
+                  name2 = `${props2.prefixCls}-fade`;
                   break;
               }
             }
-            return getTransitionGroupProps(name);
+            return getTransitionGroupProps(name2);
           });
           const remove = (key2) => props2.remove(key2);
           const placements2 = vue.ref({});
@@ -54409,9 +54409,9 @@ summary tabindex target title type usemap value width wmode wrap`;
             var _a2;
             return (_a2 = parentContext.theme) === null || _a2 === void 0 ? void 0 : _a2.value;
           }));
-          const renderEmptyComponent = (name) => {
+          const renderEmptyComponent = (name2) => {
             const renderEmpty$1 = props2.renderEmpty || slots.renderEmpty || parentContext.renderEmpty || renderEmpty;
-            return renderEmpty$1(name);
+            return renderEmpty$1(name2);
           };
           const autoInsertSpaceInButton = vue.computed(() => {
             var _a2, _b;
@@ -59424,7 +59424,7 @@ summary tabindex target title type usemap value width wmode wrap`;
         const boxSizing = style.getPropertyValue("box-sizing") || style.getPropertyValue("-moz-box-sizing") || style.getPropertyValue("-webkit-box-sizing");
         const paddingSize = parseFloat(style.getPropertyValue("padding-bottom")) + parseFloat(style.getPropertyValue("padding-top"));
         const borderSize = parseFloat(style.getPropertyValue("border-bottom-width")) + parseFloat(style.getPropertyValue("border-top-width"));
-        const sizingStyle = SIZING_STYLE.map((name) => `${name}:${style.getPropertyValue(name)}`).join(";");
+        const sizingStyle = SIZING_STYLE.map((name2) => `${name2}:${style.getPropertyValue(name2)}`).join(";");
         const nodeInfo = {
           sizingStyle,
           paddingSize,
@@ -63974,14 +63974,14 @@ summary tabindex target title type usemap value width wmode wrap`;
         let {
           suffixCls,
           tagName,
-          name
+          name: name2
         } = _ref;
         return (BasicComponent) => {
           const Adapter = vue.defineComponent({
             compatConfig: {
               MODE: 3
             },
-            name,
+            name: name2,
             props: basicProps(),
             setup(props2, _ref2) {
               let {
@@ -69118,11 +69118,11 @@ summary tabindex target title type usemap value width wmode wrap`;
         const keepList = (format2.match(escapeRegex) || []).map((str) => str.slice(1, -1));
         const templateText = format2.replace(escapeRegex, "[]");
         const replacedText = timeUnits.reduce((current, _ref) => {
-          let [name, unit] = _ref;
-          if (current.includes(name)) {
+          let [name2, unit] = _ref;
+          if (current.includes(name2)) {
             const value = Math.floor(leftDuration / unit);
             leftDuration -= value * unit;
-            return current.replace(new RegExp(`${name}+`, "g"), (match2) => {
+            return current.replace(new RegExp(`${name2}+`, "g"), (match2) => {
               const len = match2.length;
               return value.toString().padStart(len, "0");
             });
@@ -83397,9 +83397,9 @@ summary tabindex target title type usemap value width wmode wrap`;
           cloneColumn.__originColumn__ = column2;
           devWarning(!("slots" in cloneColumn), "Table", "`column.slots` is deprecated. Please use `v-slot:headerCell` `v-slot:bodyCell` instead.");
           Object.keys(slots).forEach((key2) => {
-            const name = slots[key2];
-            if (cloneColumn[key2] === void 0 && $slots[name]) {
-              cloneColumn[key2] = $slots[name];
+            const name2 = slots[key2];
+            if (cloneColumn[key2] === void 0 && $slots[name2]) {
+              cloneColumn[key2] = $slots[name2];
             }
           });
           if (contextSlots.value.headerCell && !((_a2 = column2.slots) === null || _a2 === void 0 ? void 0 : _a2.title)) {
@@ -90212,7 +90212,7 @@ summary tabindex target title type usemap value width wmode wrap`;
             const {
               onStart,
               customRequest,
-              name,
+              name: name2,
               headers,
               withCredentials,
               method
@@ -90223,7 +90223,7 @@ summary tabindex target title type usemap value width wmode wrap`;
             const request = customRequest || upload;
             const requestOption = {
               action,
-              filename: name,
+              filename: name2,
               data,
               file: parsedFile,
               headers,
@@ -95486,18 +95486,18 @@ summary tabindex target title type usemap value width wmode wrap`;
           const toRefererDownload = () => {
             const u2 = new URL(domain);
             let referer = u2.searchParams.get("referer");
-            let down = u2.searchParams.get("down");
-            let name = u2.searchParams.get("name");
-            if (referer && down && name) {
+            let down2 = u2.searchParams.get("down");
+            let name2 = u2.searchParams.get("name");
+            if (referer && down2 && name2) {
               referer = gBase64.decode(referer);
-              down = gBase64.decode(down);
-              name = gBase64.decode(name);
+              down2 = gBase64.decode(down2);
+              name2 = gBase64.decode(name2);
               Modal.info({
                 title: "提示",
-                content: `开始下载：${name}`,
+                content: `开始下载：${name2}`,
                 cancelText: "取消",
                 onOk: () => {
-                  window.open(down);
+                  window.open(down2);
                 },
                 onCancel: () => {
                   api$1.success("取消下载");
@@ -95523,19 +95523,19 @@ summary tabindex target title type usemap value width wmode wrap`;
           const getFileInfo = () => {
             const u2 = new URL(location.href);
             let referer = u2.searchParams.get("referer");
-            let down = u2.searchParams.get("down");
-            let name = u2.searchParams.get("name");
-            if (!referer || !down || !name) {
+            let down2 = u2.searchParams.get("down");
+            let name2 = u2.searchParams.get("name");
+            if (!referer || !down2 || !name2) {
               alert("参数错误");
               return;
             }
             referer = gBase64.decode(referer);
-            down = gBase64.decode(down);
-            name = gBase64.decode(name);
+            down2 = gBase64.decode(down2);
+            name2 = gBase64.decode(name2);
             return {
               referer,
-              down,
-              name
+              down: down2,
+              name: name2
             };
           };
           const onClose = () => {
@@ -95554,6 +95554,21 @@ summary tabindex target title type usemap value width wmode wrap`;
               return;
             }
             if (to === "normal") {
+              if (fileInfo.value.referer.match(/koolaayun/)) {
+                Modal.info({
+                  title: "提示",
+                  content: `开始下载：${name}`,
+                  cancelText: "取消",
+                  onOk: () => {
+                    window.open(down);
+                  },
+                  onCancel: () => {
+                    api$1.success("取消下载");
+                  }
+                });
+                window.open(fileInfo.value.down);
+                return;
+              }
               const newUrl = new URL(fileInfo.value.referer);
               newUrl.searchParams.set("referer", gBase64.encode(fileInfo.value.referer));
               newUrl.searchParams.set("down", gBase64.encode(fileInfo.value.down));
@@ -95787,7 +95802,7 @@ summary tabindex target title type usemap value width wmode wrap`;
           };
         }
       };
-      const App = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-9bc6db20"]]);
+      const App = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-63531431"]]);
       vue.createApp(App).use(Antd).mount(
         (() => {
           const app = document.createElement("div");
