@@ -1,1 +1,1 @@
-ingore this repositories
+ignore this repositories
